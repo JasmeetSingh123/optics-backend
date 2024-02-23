@@ -19,6 +19,7 @@ const attachCookiesToResponse= ({res,user})=>{
         signed: true
         
     })
+    res.setHeader('Set-Cookie', `token=${token}; SameSite=None; Secure`);
 
 }
 
