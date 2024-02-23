@@ -17,7 +17,7 @@ const app = express()
 const corsOptions = {
     origin: ['http://localhost:5173','https://pothiwalopticals.vercel.app'], // Allow requests from this origin
     credentials: true ,// Allow credentials (cookies) to be included,
-    SameSite: "none"
+    sameSite: "none"
 
   };
 
